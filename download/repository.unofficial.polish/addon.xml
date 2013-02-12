@@ -6,7 +6,7 @@
 	<extension point="xbmc.addon.repository" name="Polskie wtyczki, tralala">
 		<info compressed="true">http://raw.github.com/xbmc-addons-polish/polskie_wtyczki/master/addons.xml</info>
 		<checksum>http://raw.github.com/xbmc-addons-polish/polskie_wtyczki/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/xbmc-addons-polish/polskie_wtyczki/master</datadir>
+		<datadir zip="true">http://raw.github.com/xbmc-addons-polish/polskie_wtyczki/master/download</datadir>
         <hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
