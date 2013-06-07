@@ -229,6 +229,24 @@
     </extension>
 </addon>
 
+<addon id="plugin.image.990px.random" name="990px Random" version="1.1.0" provider-name="smuto">
+    <requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<platform>all</platform>
+	<summary lang="en">990px</summary>
+	<summary lang="pl">990px.pl – fotoreportaże, galerie zdjęć, fotografia cyfrowa</summary>
+	<description lang="en">990px</description>
+	<description lang="pl">Losowo wybrana galeria. Może w ten sposób traficie na temat, którego wcześniej nie udało wam się sprawdzić.</description>
+	<disclaimer lang="en"></disclaimer>
+    </extension>
+</addon>
+
 <addon id="plugin.image.artistmultifanart"
        name="Artist Multi Fanart"
        version="2.0.3"
@@ -265,6 +283,26 @@
         <description>smuto's XBMC addon repository for bleeding edge and likely buggy :) versions.</description>
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="screensaver.smuto" name="Smuto's Screensaver" version="0.1.0" provider-name="smuto">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.image.artistmultifanart" version="2.0.3"/>
+        <import addon="plugin.image.990px.random" version="1.1.0"/>
+        <import addon="script.cu.lrclyrics" version="1.0.7"/>
+    </requires>
+    <extension point="xbmc.ui.screensaver" library="screensaver.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language/>
+        <website></website>
+        <source></source>
+        <forum></forum>
+        <email></email>
+        <summary lang="en"></summary>
+        <description lang="en"></description>
     </extension>
 </addon>
 </addons>
