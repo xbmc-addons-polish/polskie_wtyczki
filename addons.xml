@@ -292,7 +292,7 @@
 
 <addon id="plugin.image.artistmultifanart"
        name="Artist Multi Fanart"
-       version="2.0.4"
+       version="2.0.5"
        provider-name="smuto">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
