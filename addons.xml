@@ -205,7 +205,7 @@
 
 <addon id="metadata.common.merlin.pl"
        name="merlin.pl"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="smuto">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
