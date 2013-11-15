@@ -329,6 +329,20 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.tvgry.pl" version="2.0.0" name="Tvgry.pl" provider-name="smuto">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>GRY-Online.pl</summary>
+        <description>GRY-Online.pl</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.unofficial.polish" name="Polskie wtyczki" version="2.0.0" provider-name="smuto">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
